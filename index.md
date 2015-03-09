@@ -17,20 +17,17 @@ __Course Staff__:
 <html>
 <table width="50%">
 <tr>
-<td style="padding:0 20px 0 0;"> <img src="images/maya_photo.jpg"> </td>
-<td style="padding:0 20px 0 0;"> <img src="images/matt_photo.jpg"> </td>
-<td style="padding:0 20px 0 0;"> <img src="images/brad_photo.jpg"> </td>
-<td style="padding:0 20px 0 0;"> <img src="images/king_photo.jpg"> </td>
+<td style="padding:0 20px 0 0;"> <img src="images/james_photo.jpg" width="270"> </td>
+<td style="padding:0 20px 0 0;"> <img src="images/daniel_photo.jpg" width="270"> </td>
+<td style="padding:0 20px 0 0;"> <img src="images/king_photo.jpg" width="270"> </td>
 </tr>
 <tr>
-<td> Maya Cakmak </td>
-<td> Matt Kay </td>
-<td> Brad Jacobson </td>
+<td> James Fogarty </td>
+<td> Daniel Epstein </td>
 <td> King Xia </td>
 </tr>
 <tr>
-<td style="vertical-align: top;"> Course Instructor </td>
-<td style="vertical-align: top;"> Head TA </td>
+<td style="vertical-align: top;"> Instructor </td>
 <td style="vertical-align: top;"> Teaching Assistant </td>
 <td style="vertical-align: top;"> Teaching Assistant </td>
 </tr>
@@ -38,7 +35,7 @@ __Course Staff__:
 <br>
 </html>
 
-__Contact__: Email all instructors at cse440-instr [at] cs.washington.edu
+__Contact__: Email all instructors at cse441-instr [at] cs.washington.edu
 
 __Class times & locations__: Tuesdays & Thursdays, 10:30-11:50am at EEB 045
 
