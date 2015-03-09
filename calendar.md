@@ -78,7 +78,7 @@ layout: default
                   {% if currentlecture.name != nil %}
                     {{ currentlecture.name }}<br>
                   {% else %}   
-                    Lecture<br>
+                    <b>Lecture</b><br>
                   {% endif %}
                 {% if currentlecture.slides != nil %}
                   </a>
@@ -106,7 +106,11 @@ layout: default
                 {% if currentsection.slides != nil %}
                   <a href="{{ site.baseurl }}/{{ currentsection.slides }}">
                 {% endif %}
-                  <b> Sections </b> <br>
+                  {% if currentsection.name != nil %}
+                    {{ currentsection.name }}<br>
+                  {% else %}   
+                    <b>Section</b><br>
+                  {% endif %}
                 {% if currentsection.slides != nil %}
                   </a>
                 {% endif %}
@@ -148,7 +152,7 @@ layout: default
             <tr class="major">
               <td>
                 {% if currentmajor.link != nil %}<a href="{{ site.baseurl }}/{{ currentmajor.link }}">{% endif %}
-                  <b> {{ currentmajor.name }} </b> <br>
+                  <b>{{ currentmajor.name }}</b><br>
                   {% if currentmajor.link != nil %}</a>{% endif %}
                 <small>
                   {% for currentlocationitem in site.data.calendar.locations[currentlocation] %}
