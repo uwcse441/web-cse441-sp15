@@ -4,15 +4,13 @@ layout: default
 
 ---
 
-# CSE 440: Introduction to Human Computer Interaction
+# CSE 441: Advanced Human Computer Interaction
 
-#### WINTER 2015
+#### Spring 2015
 
 ---
 
-## Basic Information
-
-__Course Staff__:
+## Staff and Scheduling
 
 <html>
 <table width="50%">
@@ -35,75 +33,80 @@ __Course Staff__:
 <br>
 </html>
 
-__Contact__: Email all instructors at cse441-instr [at] cs.washington.edu
+__Contact__: cse441-instr [at] cs.washington.edu
 
-__Class times & locations__: Tuesdays & Thursdays, 10:30-11:50am at EEB 045
+__Class Times & Location__: Tuesdays and Thursday, 10:00-11:50am, location TBD
 
-__Section times & locations__: Fridays, two separate sections:
+__Individual Project Group Meetings__: To be scheduled, primarily during Thursday class time.
 
-- Section A: 10:30-11:20am at MGH 287
-- Section B: 1:30-2:20pm at MGH 254
+__Office Hours__:  Scheduled hours will be held most weeks, but check the calendar. Other meetings by appointment.
 
-__Office Hours__:  Scheduled hours are held most weeks, but check the calendar. Other meetings by appointment.
-
- - Maya - Mondays 1:30-2:30pm at CSE 542
+- James - TBD
 
 ---
 
 ## Course Description
 
-This course provides an introduction to human-computer interaction and the design process. 
-It is overwhelmingly organized around a group project, in which students:
+Students will work in groups of four on a single project that parallels the experience of delivering a high-fidelity interactive prototype within a company or with a customer.
 
-- Ideate and propose design problems
-- Study existing practices and challenges
-- Explore potential design opportunities and tradeoffs
-- Evaluate and improve a design
-- Communicate their problem and resulting design
+Students are expected to already possess knowledge of appropriate HCI methods, and will focus on independently applying those methods in their work.
+There will therefore be little or no lecture material in this course.
+Course staff will instead work closely with students to advise on their group project.
 
-### Project Theme
+Prerequisite: CSE 440 or instructor's permission
 
-Projects are exploring challenges and opportunities in __Personal Informatics__.
-Personal informatics systems are systems that help people collect personally relevant information for the purpose of self-reflection and gaining self-knowledge. [Li _et al._, 2010](http://www.personalinformatics.org/lab/model/).
-People have long sought to better understand themselves, but recently technology advances are enabling fundamentally new approaches.
-Students will explore the problems people encounter in this space and how new technology can help people reach their goals. 
+## Project Scope
 
-Example projects on the same theme from the Autumn offering include: 
+Students will propose, design, and develop a high-fidelity interactive prototype.
+The definition of "high-fidelity interactive prototype" will be negotiated with each group according to the nature of their project.
+For example, a group delivering a mobile application or website will be expected to provide a complete interactive experience.
+But the implementation of that experience might be unlikely to scale in a large deployment, or might be limited in some other regard.
 
-- [Band-It](http://courses.cs.washington.edu/courses/cse440/14au/projects/bandit/)
-- [Ka-ching](http://courses.cs.washington.edu/courses/cse440/14au/projects/kaching/)
-- [IEP Connect](http://courses.cs.washington.edu/courses/cse440/14au/projects/iepconnect/)
-- [SoundScape](http://courses.cs.washington.edu/courses/cse440/14au/projects/soundscape/)
+Project process will include:
 
-### Project Structure and Grading
+- An initial pitch by pairs of students.
+- A group formation and bidding process.
+- Project proposal, including group definition of major milestones.
+- Peer and staff evaluation at milestones.
+- Final project poster, report, and demo.
 
-Projects are organized around four main assignments, each consistent of several milestones and deliverables. The overall course grade will be computed as follows:
+It is appropriate, but not required, to choose to pitch proposals based on prior CSE 440 projects:
 
-- Group Project (__65%__)
-  - [Assignment 1, Project Proposal]({{ site.baseurl }}/assignments/assignment1/) (__5%__)
-  - [Assignment 2, Getting the Right Design]({{ site.baseurl }}/assignments/assignment2/) (__20%__)
-    - Milestones (__5%__)
-    - Report (__10%__)
-    - Presentation (__5%__)
-  - Assignment 3, Getting the Design Right (__20%__)
-    - Milestones (__5%__)
-    - Report (__10%__)
-    - Presentation (__5%__)
-  - Assignment 4, Communicating the Design (__20%__)
-    - Milestones (__5%__)
-    - Website (__5%__)
-    - Video Prototype (__5%__)
-    - Poster (__5%__)
-- Readings (__5%__)
-- Exam (__20%__)
-- Participation and teamwork (__10%__)
+- [Winter 2015 CSE 440 Projects](http://courses.cs.washington.edu/courses/cse440/15wi/projects.html)
+- [Winter 2014 CSE 440 Projects](http://courses.cs.washington.edu/courses/cse440/14au#quarter-projects)
 
-Each assignment will also provide a point breakdown intended to convey how it will be graded. 
-Design is an inherently subjective practice, and so grading in this course is necessarily subjective.
-The best approach for getting a good grade in this course is to seek feedback from the teaching staff as frequently as possible and take the critiques very seriously.
+We welcome proposals based on any idea that has previously been explored and developed at a similar level of depth.
+But the demands of this course are too high for starting from scratch.
+You need an initial high-quality understanding of your problem and directions for your design.
 
-Because the course is designed around feedback on project milestones, grades given to those milestones indicate that you have invested sufficient effort and insight at the time of the milestone.
-You will get feedback and are expected to continue acting upon that feedback in your design process.
-The bulk of project grades is therefore attached to the final deliverables, which are evaluated on their quality.
+## Project Communication and Documentation
 
-<a name="submission"></a>
+The overall structure of the course is intended to facilitate rapid feedback on project progress:
+
+- Tuesday class will include an update from each project group to the full class.
+  This will be either a presentation (i.e., at milestones) or a more casual stand-up (i.e., weekly update).
+- Individual project meetings will be organized on Thursday, primarily during the scheduled section.
+- Students will document process and progress on project websites.
+- Students will prepare a final poster, report, and demo.
+
+## Grading
+
+Grading will be based on the project process and individual contributions to that process:
+
+- Project scope (e.g., setting sufficiently ambitious milestones)
+- Project results (e.g., achieving milestones, employing appropriate methods to yield good results, deliverables)
+- Project commitment (e.g., appropriate weekly reports, high effort, peer evaluation)
+
+These three criteria will be weighted approximately equally.
+
+Your grade will thus reflect project work as evaluated by the staff, fellow students, and any mentor.
+Feedback will be provided throughout the class, such that groups and individuals understand their performance.
+If any problems emerge with group dynamics, it is the student responsibility to notify staff as soon as possible.
+
+## Contributing
+
+This course website is a [GitHub Repository](https://github.com/uwcse441/web-cse441-sp15). 
+
+You can submit pull requests to update this website, including publishing your project websites. 
+
+We have provided [instructions for how to contribute]({{ site.baseurl }}/contributing.html).
