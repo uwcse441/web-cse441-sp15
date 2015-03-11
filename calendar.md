@@ -76,7 +76,7 @@ layout: default
                   <a href="{{ site.baseurl }}/{{ currentlecture.slides }}">
                 {% endif %}
                   {% if currentlecture.name != nil %}
-                    {{ currentlecture.name }}<br>
+                    <b>{{ currentlecture.name }}</b><br>
                   {% else %}   
                     <b>Lecture</b><br>
                   {% endif %}
@@ -107,15 +107,12 @@ layout: default
                   <a href="{{ site.baseurl }}/{{ currentsection.slides }}">
                 {% endif %}
                   {% if currentsection.name != nil %}
-                    {{ currentsection.name }}<br>
+                    <b>{{ currentsection.name }}</b><br>
                   {% else %}   
                     <b>Section</b><br>
                   {% endif %}
                 {% if currentsection.slides != nil %}
                   </a>
-                {% endif %}
-            	{% if currentsection.name != nil %}
-                  <i>{{ currentsection.name }} </i><br>
                 {% endif %}
                 <small>
                   {% for currentlocationitem in site.data.calendar.locations[currentlocation] %}
