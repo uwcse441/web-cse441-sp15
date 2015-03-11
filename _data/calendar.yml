@@ -33,30 +33,50 @@ lectures:
 #    name: "Introduction,<br> Design diamond,<br> Personal Informatics"
 #    slides: "slides/Lecture1.pdf"
   - date: "2015-03-31"
+    name: "Overview and Introductions"
   - date: "2015-04-07"
+    name: "Pitch Presentation"
   - date: "2015-04-14"
+    name: "Proposal Presentation"
   - date: "2015-04-21"
+    name: "Stand Ups"
   - date: "2015-04-28"
+    name: "Milestone 1 Presentation"
   - date: "2015-05-05"
+    name: "Stand Ups"
   - date: "2015-05-12"
+    name: "Milestone 2 Presentation"
   - date: "2015-05-19"
+    name: "Stand Ups"
   - date: "2015-05-26"
-  - date: "2015-06-02"
+    name: "Milestone 3 Presentation"
 
 sections:
 #  - date: "2015-01-09"
 #    name: "In context observation"
 #    slides: "slides/Lecture1.pdf"
   - date: "2015-04-02"
+    name: "Pitch Feedback"
   - date: "2015-04-09"
+    name: "Proposal Feedback"
   - date: "2015-04-16"
+    name: "Project Meetings"
   - date: "2015-04-23"
+    name: "Project Meetings"
   - date: "2015-04-30"
+    name: "Project Meetings"
   - date: "2015-05-07"
+    name: "Project Meetings"
   - date: "2015-05-14"
+    name: "Project Meetings"
   - date: "2015-05-21"
+    name: "Project Meetings"
   - date: "2015-05-28"
+    name: "Project Meetings"
+  - date: "2015-06-02"
+    name: "Project Meetings"
   - date: "2015-06-04"
+    name: "Project Meetings"
 
 officehours:
 #  - date: "2015-01-12"
@@ -110,3 +130,22 @@ aways:
     name: CHI 2015<br>
           James Away<br>
           Daniel Away
+  - date: "2015-05-14"
+    name: QSPH Symposium<br>
+          James Away<br>
+          Daniel Away
+  - date: "2015-05-18"
+    name: MobiSys 2015 / WWW 2015<br>
+          James Away
+  - date: "2015-05-19"
+    name: MobiSys 2015 / WWW 2015<br>
+          James Away
+  - date: "2015-05-20"
+    name: MobiSys 2015 / WWW 2015<br>
+          James Away
+  - date: "2015-05-21"
+    name: MobiSys 2015 / WWW 2015<br>
+          James Away
+  - date: "2015-05-22"
+    name: MobiSys 2015 / WWW 2015<br>
+          James Away
