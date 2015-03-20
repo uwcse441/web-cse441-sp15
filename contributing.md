@@ -3,8 +3,6 @@ layout: default
 title: General Development Guide
 ---
 
-` This page will still be updated `
-
 This page documents some of our development tools and conventions. It aims to be thorough as possible while
 remaining generic. Individual projects then document their own installation and configuration details.
 
@@ -26,9 +24,9 @@ By convention, GitHub for Windows defines the `upstream` remote:
 
     git remote add upstream <GitHub HTTPS clone URL>
 
-For example, for [cse440-au14](https://github.com/uwcse440/web-cse440-au14) we define `upstream` as:
+For example, for [cse441-sp15](https://github.com/uwcse441/web-cse441-sp15) we define `upstream` as:
 
-    git remote add upstream https://github.com/uwcse440/web-cse440-au14.git
+    git remote add upstream https://github.com/uwcse441/web-cse441-sp15.git
 
 This ends up being a very useful convention, regardless of whether you're on Windows, Mac, Linux, or something we've never heard of.
 
@@ -227,9 +225,9 @@ By convention, GitHub for Windows defines the `upstream` remote:
 
     git remote add upstream <GitHub HTTPS clone URL>
 
-For example, for [cse440-au14](https://github.com/uwcse440/web-cse440-au14) we define `upstream` as:
+For example, for [cse441-sp15](https://github.com/uwcse441/web-cse441-sp15) we define `upstream` as:
 
-    git remote add upstream https://github.com/uwcse440/web-cse440-au14.git
+    git remote add upstream https://github.com/uwcse441/web-cse441-sp15.git
 
 This ends up being a very useful convention, regardless of whether you're on Windows, Mac, Linux, or something we've never heard of.
 
@@ -261,7 +259,7 @@ The `deploy` task will deploy the site to its production location.
 
 ## <a name="forking"></a> Forking the Repository
 
-The easiest way to fork a repository is to visit the repository on GitHub and press the fork button. So for our course repository, visit [here](https://github.com/uwcse440/web-cse440-au14).
+The easiest way to fork a repository is to visit the repository on GitHub and press the fork button. So for our course repository, visit [here](https://github.com/uwcse441/web-cse441-sp15).
 
 ![fork]({{ site.baseurl }}/images/development_general/fork.png)
 
@@ -305,7 +303,7 @@ This is usually pretty apparent via the desktop applications. Files usually are 
 
 ## <a name="pull_request"></a> Submitting a Pull Request
 
-After pushing a set of changes, a pull request appears in the parent repository (the [course website repository](https://github.com/uwcse440/web-cse440-au14) in our case). It'll look something like the following:
+After pushing a set of changes, a pull request appears in the parent repository (the [course website repository](https://github.com/uwcse441/web-cse441-sp15) in our case). It'll look something like the following:
 
 ![pull_request]({{ site.baseurl }}/images/development_general/pull_request.png)
 
