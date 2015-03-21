@@ -25,6 +25,14 @@ def deploy():
     # Push up to the server staging directory
     fabric.api.put('_site/*', '~/fabric_staging/web-cse441-sp15/')
 
+    # Configure the deployment directory to inherit group permissions on subdirectories
+    #
+    # This does not account for directories that have previously been created:
+    # https://en.wikipedia.org/wiki/Setuid#setgid_on_directories
+    #
+    # But it should be fine if this is how we always deploy
+    fabric.api.run('chmod g+s /cse/web/courses/cse441/15sp/')
+
     # And sync into the deployment directory
     fabric.api.run('rsync -r -c --delete ~/fabric_staging/web-cse441-sp15/ /cse/web/courses/cse441/15sp/')
 
