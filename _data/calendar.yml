@@ -12,12 +12,9 @@ locations:
   postersession:
     - time: "10:30 - 12:20"
       location: "CSE Atrium"
-#  officehoursmaya:
-#    - time: "1:30 - 2:30"
-#      location: "CSE 542"
-#  officehoursmatt:
-#    - time: "12:00 - 1:00"
-#      location: "CSE 218"
+  officehourjames:
+    - time: "10:30 - 11:30"
+      location: "CSE 666"
 
 holidays:
   - date: "2015-05-25"
@@ -79,9 +76,33 @@ sections:
     name: "Project Meetings"
 
 officehours:
-#  - date: "2015-01-12"
-#    name: "Maya Office Hour"
-#    location: officehoursmaya
+  - date: "2015-04-01"
+    name: "James Office Hour"
+    location: officehourjames
+  - date: "2015-04-08"
+    name: "James Office Hour"
+    location: officehourjames
+  - date: "2015-04-15"
+    name: "James Office Hour"
+    location: officehourjames
+  - date: "2015-04-29"
+    name: "James Office Hour"
+    location: officehourjames
+  - date: "2015-05-06"
+    name: "James Office Hour"
+    location: officehourjames
+  - date: "2015-05-13"
+    name: "James Office Hour"
+    location: officehourjames
+  - date: "2015-05-20"
+    name: "James Office Hour"
+    location: officehourjames
+  - date: "2015-05-27"
+    name: "James Office Hour"
+    location: officehourjames
+  - date: "2015-06-03"
+    name: "James Office Hour"
+    location: officehourjames
 
 assignments:
 #  - date: "2015-01-08"
