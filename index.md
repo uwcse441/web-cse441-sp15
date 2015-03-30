@@ -45,20 +45,20 @@ __Office Hours__:  Check the calendar. Scheduled Wednesdays 10:30-11:30am, CSE 6
 
 ## Course Description
 
-Students will work in groups of four on a single project that parallels the experience of delivering a high-fidelity interactive prototype within a company or with a customer.
+Students will work in groups of three or four on a single project that parallels the experience of delivering a high-fidelity interactive prototype within a company or with a customer.
 
 Students are expected to already possess knowledge of appropriate HCI methods, and will focus on independently applying those methods in their work.
 There will therefore be little or no lecture material in this course.
-Course staff will instead work closely with students to advise on their group project.
+Course staff will instead work closely with students to critique and advise on their group project.
 
-Prerequisite: CSE 440 or instructor's permission
+Prerequisite: CSE 440 or instructor's permission.
 
 ## Project Scope
 
 Students will propose, design, and develop a high-fidelity interactive prototype.
 The definition of "high-fidelity interactive prototype" will be negotiated with each group according to the nature of their project.
 For example, a group delivering a mobile application or website will be expected to provide a complete interactive experience.
-But the implementation of that experience might be unlikely to scale in a large deployment, or might be limited in some other regard.
+But the prototype of that experience might be unlikely to scale in a large deployment, or might be limited in some other regard.
 
 Project process will include:
 
@@ -84,16 +84,16 @@ The overall structure of the course is intended to facilitate rapid feedback on 
 - Tuesday class will include an update from each project group to the full class.
   This will be either a presentation (i.e., at milestones) or a more casual stand-up (i.e., weekly update).
 - Individual project meetings will be organized on Thursday, primarily during the scheduled section.
-- Students will document process and progress on project websites.
-- Students will prepare a final poster, report, and demo.
+- Students will document their process and progress on project websites, including weekly updates.
+- Students will prepare a final poster, report, and presentation/demo.
 
 ## Grading
 
 Grading will be based on the project process and individual contributions to that process:
 
-- Project scope (e.g., setting sufficiently ambitious milestones)
-- Project results (e.g., achieving milestones, employing appropriate methods to yield good results, deliverables)
-- Project commitment (e.g., appropriate weekly reports, high effort, peer evaluation)
+- Project scope (e.g., setting sufficiently ambitious milestones).
+- Project results (e.g., achieving milestones, employing appropriate methods to yield good results, deliverables).
+- Project commitment (e.g., appropriate weekly reports, high effort, peer evaluation).
 
 These three criteria will be weighted approximately equally.
 
