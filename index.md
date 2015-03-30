@@ -35,13 +35,11 @@ layout: default
 
 __Contact__: cse441-instr [at] cs.washington.edu
 
-__Class Times & Location__: Tuesdays and Thursday, 10:00-11:50am, location TBD
+__Class Times & Location__: Tuesdays and Thursday, 10:00-11:50am, MGH 284
 
 __Individual Project Group Meetings__: To be scheduled, primarily during Thursday class time.
 
-__Office Hours__:  Scheduled hours will be held most weeks, but check the calendar. Other meetings by appointment.
-
-- James - TBD
+__Office Hours__:  Check the calendar. Scheduled Wednesdays 10:30-11:30am, CSE 666. Other meetings by appointment.
 
 ---
 
