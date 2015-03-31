@@ -5,10 +5,10 @@ dates_of_instruction:
 locations:
   lectures:
     - time: "10:00 - 11:50"
-      location: "TBD"
+      location: "MGH 284"
   sections:
     - time: "10:00 - 11:50"
-      location: "TBD"
+      location: "MGH 284"
   postersession:
     - time: "10:30 - 12:20"
       location: "CSE Atrium"
