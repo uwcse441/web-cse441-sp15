@@ -72,22 +72,19 @@ layout: default
   
             <tr class="lecture">
               <td>
-                {% if currentlecture.slides != nil %}
-                  <a href="{{ site.baseurl }}/{{ currentlecture.slides }}">
-                {% endif %}
-                  {% if currentlecture.name != nil %}
-                    <b>{{ currentlecture.name }}</b><br>
-                  {% else %}   
-                    <b>Lecture</b><br>
-                  {% endif %}
-                {% if currentlecture.slides != nil %}
-                  </a>
+                {% if currentlecture.name != nil %}
+                  <b>{{ currentlecture.name }}</b><br>
+                {% else %}   
+                  <b>Lecture</b><br>
                 {% endif %}
                 <small>
                   {% for currentlocationitem in site.data.calendar.locations[currentlocation] %}
                       {{ currentlocationitem.time }}<br>
                       {{ currentlocationitem.location }}<br>
                   {% endfor %}
+                  {% if currentlecture.slides != nil %}
+                    [<a href="{{ site.baseurl }}/{{ currentlecture.slides }}">slides</a>]<br>
+                  {% endif %}
                 </small>
               </td>
             </tr>
@@ -103,22 +100,22 @@ layout: default
   
             <tr class="section">
               <td>
-                {% if currentsection.slides != nil %}
-                  <a href="{{ site.baseurl }}/{{ currentsection.slides }}">
-                {% endif %}
-                  {% if currentsection.name != nil %}
-                    <b>{{ currentsection.name }}</b><br>
-                  {% else %}   
-                    <b>Section</b><br>
-                  {% endif %}
-                {% if currentsection.slides != nil %}
-                  </a>
+                {% if currentsection.name != nil %}
+                  <b>{{ currentsection.name }}</b><br>
+                {% else %}   
+                  <b>Section</b><br>
                 {% endif %}
                 <small>
                   {% for currentlocationitem in site.data.calendar.locations[currentlocation] %}
                       {{ currentlocationitem.time }}<br>
                       {{ currentlocationitem.location }}<br>
                   {% endfor %}
+                  {% if currentsection.slides != nil %}
+                    <a href="{{ site.baseurl }}/{{ currentsection.slides }}"></a><br>
+                  {% endif %}
+                  {% if currentsection.notes != nil %}
+                    {{ currentsection.notes }}<br>
+                  {% endif %}
                 </small>
               </td>
             </tr>

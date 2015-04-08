@@ -7,7 +7,7 @@ locations:
     - time: "10:00 - 11:50"
       location: "MGH 284"
   sections:
-    - time: "10:00 - 11:50"
+    - time: "9:30 - 11:50"
       location: "MGH 284"
   postersession:
     - time: "10:30 - 12:20"
@@ -43,6 +43,7 @@ lectures:
 #    slides: "slides/Lecture1.pdf"
   - date: "2015-03-31"
     name: "Overview and Introductions"
+    slides: "slides/01-Intro.pdf"
   - date: "2015-04-07"
     name: "Pitch Presentation"
   - date: "2015-04-14"
@@ -64,26 +65,81 @@ sections:
 #  - date: "2015-01-09"
 #    name: "In context observation"
 #    slides: "slides/Lecture1.pdf"
+#    notes: |
+#      9:30 - Journey<br>
+#      10:05 - IEP<br>
+#      10:40 - Bookmate<br>
+#      11:15 - Memortainment
   - date: "2015-04-09"
     name: "Proposal Feedback"
+    notes: |
+      9:30 - Journey<br>
+      10:05 - IEP<br>
+      10:40 - Bookmate<br>
+      11:15 - Memortainment
   - date: "2015-04-16"
     name: "Project Meetings"
+    notes: |
+      9:30 - Journey<br>
+      10:05 - IEP<br>
+      10:40 - Bookmate<br>
+      11:15 - Memortainment
   - date: "2015-04-23"
     name: "Project Meetings"
+    notes: |
+      9:30 - Journey<br>
+      10:05 - IEP<br>
+      10:40 - Bookmate<br>
+      11:15 - Memortainment
   - date: "2015-04-30"
     name: "Project Meetings"
+    notes: |
+      9:30 - Journey<br>
+      10:05 - IEP<br>
+      10:40 - Bookmate<br>
+      11:15 - Memortainment
   - date: "2015-05-07"
     name: "Project Meetings"
+    notes: |
+      9:30 - Journey<br>
+      10:05 - IEP<br>
+      10:40 - Bookmate<br>
+      11:15 - Memortainment
   - date: "2015-05-14"
     name: "Project Meetings"
+    notes: |
+      9:30 - Journey<br>
+      10:05 - IEP<br>
+      10:40 - Bookmate<br>
+      11:15 - Memortainment
   - date: "2015-05-21"
     name: "Project Meetings"
+    notes: |
+      9:30 - Journey<br>
+      10:05 - IEP<br>
+      10:40 - Bookmate<br>
+      11:15 - Memortainment
   - date: "2015-05-28"
     name: "Project Meetings"
+    notes: |
+      9:30 - Journey<br>
+      10:05 - IEP<br>
+      10:40 - Bookmate<br>
+      11:15 - Memortainment
   - date: "2015-06-02"
     name: "Project Meetings"
+    notes: |
+      9:30 - Journey<br>
+      10:05 - IEP<br>
+      10:40 - Bookmate<br>
+      11:15 - Memortainment
   - date: "2015-06-04"
     name: "Project Meetings"
+    notes: |
+      9:30 - Journey<br>
+      10:05 - IEP<br>
+      10:40 - Bookmate<br>
+      11:15 - Memortainment
 
 officehours:
   - date: "2015-04-01"
@@ -108,9 +164,6 @@ officehours:
     name: "James Office Hour"
     location: officehourjames
   - date: "2015-05-06"
-    name: "James Office Hour"
-    location: officehourjames
-  - date: "2015-05-13"
     name: "James Office Hour"
     location: officehourjames
   - date: "2015-05-20"
@@ -170,22 +223,15 @@ aways:
     name: CHI 2015<br>
           James Away<br>
           Daniel Away
+  - date: "2015-05-13"
+    name: QSPH Symposium<br>
+          James Away<br>
+          Daniel Away
   - date: "2015-05-14"
     name: QSPH Symposium<br>
           James Away<br>
           Daniel Away
-  - date: "2015-05-18"
-    name: MobiSys 2015 / WWW 2015<br>
-          James Away
-  - date: "2015-05-19"
-    name: MobiSys 2015 / WWW 2015<br>
-          James Away
-  - date: "2015-05-20"
-    name: MobiSys 2015 / WWW 2015<br>
-          James Away
-  - date: "2015-05-21"
-    name: MobiSys 2015 / WWW 2015<br>
-          James Away
-  - date: "2015-05-22"
-    name: MobiSys 2015 / WWW 2015<br>
-          James Away
+  - date: "2015-05-15"
+    name: QSPH Symposium<br>
+          James Away<br>
+          Daniel Away
