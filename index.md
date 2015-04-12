@@ -10,28 +10,60 @@ layout: default
 
 ---
 
-## Staff and Scheduling
+## Projects
 
-<html>
-<table width="50%">
+<table>
 <tr>
-<td style="padding:0 20px 0 0;"> <img src="images/james_photo.jpg" width="270"> </td>
-<td style="padding:0 20px 0 0;"> <img src="images/daniel_photo.jpg" width="270"> </td>
-<td style="padding:0 20px 0 0;"> <img src="images/king_photo.jpg" width="270"> </td>
+    <td style="padding:0 20px 0 0;">
+        <a href="{{ site.baseurl }}/projects/bookmate/">
+            <img src="{{ site.baseurl }}/projects/bookmate/projectthumb.png" width="200">
+        </a>
+    </td>
+    <td style="padding:0 20px 0 0;">
+        <a href="{{ site.baseurl }}/projects/iep/">
+            <img src="{{ site.baseurl }}/projects/iep/projectthumb.png" width="200">
+        </a>
+    </td>
+    <td style="padding:0 20px 0 0;">
+        <a href="{{ site.baseurl }}/projects/journey/">
+            <img src="{{ site.baseurl }}/projects/journey/projectthumb.png" width="200">
+        </a>
+    </td>
+    <td style="padding:0 20px 0 0;">
+        <a href="{{ site.baseurl }}/projects/memortainment/">
+            <img src="{{ site.baseurl }}/projects/memortainment/projectthumb.png" width="200">
+        </a>
+    </td>
 </tr>
 <tr>
-<td> James Fogarty </td>
-<td> Daniel Epstein </td>
-<td> King Xia </td>
-</tr>
-<tr>
-<td style="vertical-align: top;"> Instructor </td>
-<td style="vertical-align: top;"> Teaching Assistant </td>
-<td style="vertical-align: top;"> Teaching Assistant </td>
+    <td>Bookmate</td>
+    <td>IEP</td>
+    <td>Journey</td>
+    <td>Memortainment</td>
 </tr>
 </table>
-<br>
-</html>
+
+---
+
+## Staff and Scheduling
+
+<table>
+<tr>
+    <td style="padding:0 20px 0 0;"> <img src="images/james_photo.jpg" width="150"> </td>
+    <td style="padding:0 20px 0 0;"> <img src="images/daniel_photo.jpg" width="150"> </td>
+    <td style="padding:0 20px 0 0;"> <img src="images/king_photo.jpg" width="150"> </td>
+</tr>
+<tr>
+    <td> James Fogarty </td>
+    <td> Daniel Epstein </td>
+    <td> King Xia </td>
+</tr>
+<tr>
+    <td style="vertical-align: top;"> Instructor </td>
+    <td style="vertical-align: top;"> Teaching Assistant </td>
+    <td style="vertical-align: top;"> Teaching Assistant </td>
+</tr>
+</table>
 
 __Contact__: cse441-instr [at] cs.washington.edu
 

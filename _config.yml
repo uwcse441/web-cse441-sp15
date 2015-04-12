@@ -2,8 +2,6 @@ name:       CSE 441 - Spring 2015
 baseurl:    /courses/cse441/15sp
 
 collections:
-  assignments:
-    output: true
   projects:
     output: false
 
