@@ -89,7 +89,7 @@ The overall structure of the course is intended to facilitate rapid feedback on 
 
 ## Project Dates and Guidance
 
-### Project Pitch: Tuesday, April 7
+### Pitch: Tuesday, April 7
 
 Pitches will be presented in class on Tuesday, April 7. 
 Each pitch should last 3 to 5 minutes. 
@@ -136,12 +136,80 @@ An effective pitch will address these points:
   For other project, a full implementation might be easily in-scope.
   Either is potentially appropriate, but convey explicit thoughts regarding this.
 
-### Project Bidding: Tuesday, April 7
+For ease of in-class coordination, submit your presentation materials here:
+
+<https://catalyst.uw.edu/collectit/dropbox/jaf1978/35293>
+
+### Bidding: Tuesday, April 7
 
 Bids will be collected in-class at the end of Tuesday, April 7.
 We expect to form teams the same day, or possibly on Wednesday April 8.
 
 We ask that students be highly response to email in this time, for the sake of resolving any questions.
+
+### Proposal Presentation: Tuesday, April 14
+ 
+Proposals will be presented in class on Tuesday, April 14.
+Proposals should last 5 to 10 minutes.
+We will then have time for questions and discussion, before moving to the next proposal.
+This is the final opportunity for feedback before your written proposal.
+You plans should therefore be detailed enough for the staff and your classmates to understand your proposed project. 
+
+It is understood that later elements of your project may change in response to knowledge gained or
+barriers encountered in the early elements of your project.
+But you should put forward a concrete proposal against which any later revisions can be compared.
+
+An effective presentation will address these points:
+
+- _A project name._
+
+  A short, creative, and marketable title capturing the key idea.
+  Projects that build upon a prior student project should seriously consider changing the name.
+  It will of course be necessary to give appropriate attribution to the prior work
+  but changing the name will also help in making a clear separation between the different project efforts. 
+
+- _What is the project?_
+  
+  Your pitch presented:
+  
+    - the problem
+    - the existing understanding
+    - the unique design insight 
+    - the interesting interactive questions within your project
+    
+  Now that you have assembled as a team, present a compact project description based on these points.
+  Although your classmates already have some familiarity with your project, imagine presenting to a new audience.
+  
+  Your overall goal is to effectively motivate:
+
+    - the overall problem and approach
+    - your specific focus within this larger problem
+
+- _What are your deliverables?_
+  
+  Describe what you will produce in the course of your project that will correspond to your efforts and results.
+  Note that this includes more than just your final code.
+  Your CSE 440 project deliverables included your contextual inquiries, your tasks, your design explorations,
+  your paper prototypes, your usability testing, and your digital mockup.
+  
+  By exclusion, you are also drawing bounds around what you will not aim to accomplish.
+  Be appropriately explicit in this regard.
+
+- _What are your milestones?_
+  
+  You will give milestone presentations to the class on April 28, May 12, and May 26.
+
+  Break your deliverables into a set of milestones, based on the course calendar.
+  Describe how we will know you are making progress and on track in your project.
+  
+- _What are your success criteria, major risks, and risk mitigation plans?_
+
+  Given the above, discuss how you will consider your project a success.
+  Discuss any major risks in the project, and what you have done or will do to mitigate those risks.
+
+For ease of in-class coordination, submit your presentation materials here:
+
+<https://catalyst.uw.edu/collectit/dropbox/jaf1978/35293>
 
 ## Grading
 
