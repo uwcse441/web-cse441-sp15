@@ -10,6 +10,41 @@ layout: default
 
 ---
 
+## Projects
+
+<table>
+<tr>
+    <td style="padding:0 20px 0 0;">
+        <a href="{{ site.baseurl }}/projects/bookmate/">
+            <img src="{{ site.baseurl }}/projects/bookmate/projectthumb.png" width="200">
+        </a>
+    </td>
+    <td style="padding:0 20px 0 0;">
+        <a href="{{ site.baseurl }}/projects/iep/">
+            <img src="{{ site.baseurl }}/projects/iep/projectthumb.png" width="200">
+        </a>
+    </td>
+    <td style="padding:0 20px 0 0;">
+        <a href="{{ site.baseurl }}/projects/journey/">
+            <img src="{{ site.baseurl }}/projects/journey/projectthumb.png" width="200">
+        </a>
+    </td>
+    <td style="padding:0 20px 0 0;">
+        <a href="{{ site.baseurl }}/projects/memortainment/">
+            <img src="{{ site.baseurl }}/projects/memortainment/projectthumb.png" width="200">
+        </a>
+    </td>
+</tr>
+<tr>
+    <td>Bookmate</td>
+    <td>IEP</td>
+    <td>Journey</td>
+    <td>Memortainment</td>
+</tr>
+</table>
+
+---
+
 ## Staff and Scheduling
 
 <table>
