@@ -243,6 +243,17 @@ For ease of in-class coordination, submit your presentation materials here:
 
 <https://catalyst.uw.edu/collectit/dropbox/jaf1978/35293>
 
+### Website: Tuesday, April 14
+
+You will maintain a project website over the course of the quarter.
+This is where you will post all your project notebook and all of your project materials.
+We have created a placeholder project directory. 
+By end-of-day Tuesday, submit a pull request that replaces the placeholder with a minimal project website.
+
+For some examples of these sites, see those from prior offerings of CSE 477:
+
+<http://abstract.cs.washington.edu/~shwetak/classes/cse477/?Project_Pages>
+
 ## Grading
 
 Grading will be based on the project process and individual contributions to that process:
