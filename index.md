@@ -12,26 +12,23 @@ layout: default
 
 ## Staff and Scheduling
 
-<html>
-<table width="50%">
+<table>
 <tr>
-<td style="padding:0 20px 0 0;"> <img src="images/james_photo.jpg" width="270"> </td>
-<td style="padding:0 20px 0 0;"> <img src="images/daniel_photo.jpg" width="270"> </td>
-<td style="padding:0 20px 0 0;"> <img src="images/king_photo.jpg" width="270"> </td>
+    <td style="padding:0 20px 0 0;"> <img src="images/james_photo.jpg" width="150"> </td>
+    <td style="padding:0 20px 0 0;"> <img src="images/daniel_photo.jpg" width="150"> </td>
+    <td style="padding:0 20px 0 0;"> <img src="images/king_photo.jpg" width="150"> </td>
 </tr>
 <tr>
-<td> James Fogarty </td>
-<td> Daniel Epstein </td>
-<td> King Xia </td>
+    <td> James Fogarty </td>
+    <td> Daniel Epstein </td>
+    <td> King Xia </td>
 </tr>
 <tr>
-<td style="vertical-align: top;"> Instructor </td>
-<td style="vertical-align: top;"> Teaching Assistant </td>
-<td style="vertical-align: top;"> Teaching Assistant </td>
+    <td style="vertical-align: top;"> Instructor </td>
+    <td style="vertical-align: top;"> Teaching Assistant </td>
+    <td style="vertical-align: top;"> Teaching Assistant </td>
 </tr>
 </table>
-<br>
-</html>
 
 __Contact__: cse441-instr [at] cs.washington.edu
 
