@@ -121,7 +121,7 @@ The overall structure of the course is intended to facilitate rapid feedback on 
 
 ## Project Dates and Guidance
 
-### Pitch: Tuesday, April 7
+### Pitch Presentation: Tuesday, April 7
 
 Pitches will be presented in class on Tuesday, April 7. 
 Each pitch should last 3 to 5 minutes. 

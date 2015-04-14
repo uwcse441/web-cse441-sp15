@@ -181,6 +181,15 @@ assignments:
 #    name: "1a - Project Ideas"
 #    link: "assignments/assignment1/#assignment1a"
 
+#  - date: "2015-04-07"
+#    name: "Pitch Presentation"
+#  - date: "2015-04-07"
+#    name: "Bidding"
+#  - date: "2015-04-14"
+#    name: "Proposal Presentation"
+#  - date: "2015-04-15"
+#    name: "Pitch Document"
+
 majors:
 #  - date: "2015-02-05"
 #    name: "Presentations"
