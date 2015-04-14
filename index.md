@@ -15,7 +15,7 @@ layout: default
 <table>
 <tr>
     <td style="padding:0 20px 0 0;">
-        <a href="{{ site.baseurl }}/projects/bookmate/">
+        <a href="http://uwbookmate.wordpress.com">
             <img src="{{ site.baseurl }}/projects/bookmate/projectthumb.png" width="200">
         </a>
     </td>
