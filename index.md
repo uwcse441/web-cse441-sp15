@@ -254,6 +254,14 @@ For some examples of these sites, see those from prior offerings of CSE 477:
 
 <http://abstract.cs.washington.edu/~shwetak/classes/cse477/?Project_Pages>
 
+### Proposal Document: Wednesday, April 15
+
+Based on the content of your proposal presentation and any feedback received, prepare a 1-page proposal document.
+This document should address the same points as your proposal presentation.
+It should be written so that a person unfamiliar with your project and this class can understand the proposal.
+
+Post the proposal document to your project website.
+
 ## Grading
 
 Grading will be based on the project process and individual contributions to that process:
