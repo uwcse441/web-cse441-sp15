@@ -20,26 +20,26 @@ layout: default
         </a>
     </td>
     <td style="padding:0 20px 0 0;">
-        <a href="{{ site.baseurl }}/projects/iep/">
-            <img src="{{ site.baseurl }}/projects/iep/projectthumb.png" width="200">
+        <a href="{{ site.baseurl }}/projects/iepcollect/">
+            <img src="{{ site.baseurl }}/projects/iepcollect/projectthumb.png" width="200">
         </a>
     </td>
     <td style="padding:0 20px 0 0;">
-        <a href="{{ site.baseurl }}/projects/journey/">
-            <img src="{{ site.baseurl }}/projects/journey/projectthumb.png" width="200">
+        <a href="{{ site.baseurl }}/projects/memorable/">
+            <img src="{{ site.baseurl }}/projects/memorable/projectthumb.png" width="200">
         </a>
     </td>
     <td style="padding:0 20px 0 0;">
-        <a href="{{ site.baseurl }}/projects/memortainment/">
-            <img src="{{ site.baseurl }}/projects/memortainment/projectthumb.png" width="200">
+        <a href="{{ site.baseurl }}/projects/serendipity/">
+            <img src="{{ site.baseurl }}/projects/serendipity/projectthumb.png" width="200">
         </a>
     </td>
 </tr>
 <tr>
     <td>Bookmate</td>
-    <td>IEP</td>
-    <td>Journey</td>
-    <td>Memortainment</td>
+    <td>IEP Collect</td>
+    <td>Memorable</td>
+    <td>Serendipity</td>
 </tr>
 </table>
 
