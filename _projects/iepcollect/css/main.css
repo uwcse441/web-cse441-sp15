@@ -1,0 +1,11 @@
+div.docs, div.design, div.demo, div.about {
+	display: none;
+}
+
+.person {
+	text-align: center;
+}
+.person img {
+	width: 200px;
+	height: 200px;
+}
