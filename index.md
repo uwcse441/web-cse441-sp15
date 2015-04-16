@@ -20,26 +20,26 @@ layout: default
         </a>
     </td>
     <td style="padding:0 20px 0 0;">
-        <a href="{{ site.baseurl }}/projects/iep/">
-            <img src="{{ site.baseurl }}/projects/iep/projectthumb.png" width="200">
+        <a href="{{ site.baseurl }}/projects/iepcollect/">
+            <img src="{{ site.baseurl }}/projects/iepcollect/projectthumb.png" width="200">
         </a>
     </td>
     <td style="padding:0 20px 0 0;">
-        <a href="{{ site.baseurl }}/projects/journey/">
-            <img src="{{ site.baseurl }}/projects/journey/projectthumb.png" width="200">
+        <a href="{{ site.baseurl }}/projects/memorable/">
+            <img src="{{ site.baseurl }}/projects/memorable/projectthumb.png" width="200">
         </a>
     </td>
     <td style="padding:0 20px 0 0;">
-        <a href="{{ site.baseurl }}/projects/memortainment/">
-            <img src="{{ site.baseurl }}/projects/memortainment/projectthumb.png" width="200">
+        <a href="{{ site.baseurl }}/projects/serendipity/">
+            <img src="{{ site.baseurl }}/projects/serendipity/projectthumb.png" width="200">
         </a>
     </td>
 </tr>
 <tr>
     <td>Bookmate</td>
-    <td>IEP</td>
-    <td>Journey</td>
-    <td>Memortainment</td>
+    <td>IEP Collect</td>
+    <td>Memorable</td>
+    <td>Serendipity</td>
 </tr>
 </table>
 
@@ -121,7 +121,7 @@ The overall structure of the course is intended to facilitate rapid feedback on 
 
 ## Project Dates and Guidance
 
-### Pitch: Tuesday, April 7
+### Pitch Presentation: Tuesday, April 7
 
 Pitches will be presented in class on Tuesday, April 7. 
 Each pitch should last 3 to 5 minutes. 
@@ -253,6 +253,14 @@ By end-of-day Tuesday, submit a pull request that replaces the placeholder with 
 For some examples of these sites, see those from prior offerings of CSE 477:
 
 <http://abstract.cs.washington.edu/~shwetak/classes/cse477/?Project_Pages>
+
+### Proposal Document: Wednesday, April 15
+
+Based on the content of your proposal presentation and any feedback received, prepare a 1-page proposal document.
+This document should address the same points as your proposal presentation.
+It should be written so that a person unfamiliar with your project and this class can understand the proposal.
+
+Post the proposal document to your project website.
 
 ## Grading
 
