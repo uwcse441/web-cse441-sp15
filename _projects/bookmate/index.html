@@ -26,7 +26,7 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
-
+    
 </head>
 <body>
 
@@ -40,39 +40,50 @@
           <hr>
           <ul>
               <li><strong>Milestone I: (April 28th)</strong></li>
-              <li>User Research Report</li>
-              <li>Proposal</li>
-              <li>Sketch</li>
-              <li>Paper Prototype I</li>
-              <li>Usability Test I</li>
-              <li>Paper Prototype II</li>
-              <li>Usability Test II</li>
-              <li>Digital Mockup</li>
+              <li><a>User Research Findings</a></li>
+              <li><a id="proposal">Proposal</a></li>
+              <li><a>Information Architecture</a></li>
+              <li><a>Sketches</a></li>
+              <li><a>Paper Prototype I</a></li>
+              <li><a>Usability Test I</a></li>
+              <li><a>Paper Prototype II</a></li>
+              <li><a>Usability Test II</a></li>
+              <li><a>Digital Mockup</a></li>
+              <li><a>Development Libraries Research</a></li>
           </ul>
           <hr>
           <ul>
               <li><strong>Milestone II: (May 12th)</strong></li>
-              <li>Back-end Development Report I</li>
-              <li>Front-end Development Report I</li>
-              <li>Usability Test III</li>
-              <li>Back-end Development Report II</li>
-              <li>Front-end Development Report II</li>
-              <li>Usability Test IV</li>
+              
           </ul>
           <hr>
           <ul>
               <li><strong>Milestone III: (May 26th)</strong></li>
-              <li>Website</li>
-              <li>Video</li>
+              <li><a>Final Testing Report</a></li>
+              <li><a>Website</a></li>
           </ul>
       </div>
-      <div class="nine columns cover-page">
-         <span style="text-style: italic;">There is nothing here yet.</span></p>
+      <div class="nine columns cover-page" id="content">
+         <span class="default_text">Click the links on the left to view the report.</span>
+         <span class="alt_text" style="display:none;">Please make sure that your browser has Adobe Reader or PDF viewer or you can download the file.</span><br><br>
+          <img class="download_btn" src="images/download.png" style="display:none; position: relative; top: 50%;" height="64px"/>
       </div>
     </div>
   </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+  <script type="text/javascript" src="js/pdfobject.js"></script>
+  <script type="text/javascript">
+    $("#proposal").click(function() {
+        $(".default_text").hide();
+        $(".alt_text").show();
+        $(".download_btn").show();
+        $(".download_btn").wrap("<a href='pdf_files/Proposal.pdf'></a>");
+        var myPDF = new PDFObject({url:"pdf_files/Proposal.pdf"}).embed("content");
+    });
+  </script>
 </body>
 </html>
