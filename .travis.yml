@@ -6,6 +6,7 @@ python:
 install:
   - pip install -r requirements3.txt
   - sudo apt-get install -y python-pygments ruby ruby-dev
+  - gem install fast-stemmer
   - gem install jekyll
 
 script:
