@@ -2,10 +2,10 @@
 
 var shownTab = ".home";
 function tabToggle(){
-	$("div" + shownTab).hide(500);
 	$("li" + shownTab).removeClass("active");
 	var classname = $(this).parent("li").attr("class");
-	$("." + classname).show(500);
+	$("." + classname).show(1000);
+	$("div" + shownTab).hide(1000);
 	shownTab = "." + classname;
 	$(this).parent("li").addClass("active");
 }
