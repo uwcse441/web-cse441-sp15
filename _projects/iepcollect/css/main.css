@@ -9,3 +9,10 @@ div.docs, div.design, div.demo, div.about {
 	width: 200px;
 	height: 200px;
 }
+
+li ul {
+	padding-left: 2em;
+}
+li li {
+	list-style-type: disc;
+}
