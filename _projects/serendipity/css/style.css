@@ -35,6 +35,19 @@
 		line-height: 1.75em;
 	}
 
+	.italic {
+		font-style: italic;
+		margin-bottom: 10px;
+
+	}
+
+	.marginLeft {
+		margin-left: 2em;
+	}
+	.marginLeft1 {
+		margin-left: 5em;
+	}
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
@@ -55,13 +68,14 @@
 	}
 
 	p, ul, ol, dl, table, blockquote {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
+		
 		margin-bottom: 1em;
 		text-transform: uppercase;
 	}
@@ -359,16 +373,49 @@
 				}
 
 		.icon.featured {
+			
+			border: 0;
+			border-radius: 100%;
+			display: block;
+			font-size: 1.25em;
+			font-size: 1.25em;
+			height: 8em;
+			
+			line-height: 2.25em;
+			text-align: center;
+			text-decoration: none;
+			
+			width: 8em;
+			
 			cursor: default;
 			display: block;
-			margin: 0 0 1.5em 0;
-			opacity: 0.35;
+			margin: 0 auto;
+			/*opacity: 0.35;*/
 			text-align: center;
+
+			margin-bottom: 2em;
+			
 		}
 
+		.icon.featured.fa-binoculars {
+			background: #70aecd;
+			color: white;
+		}
+
+		.icon.featured.fa-subway {
+			background: #7490c3;
+			color: white;
+		}
+
+		.icon.featured.fa-home {
+			background: #df93b8;
+			color: white;
+		}
+
+
 			.icon.featured:before {
-				font-size: 5em;
-				line-height: 1em;
+				font-size: 4em;
+				line-height: 1.9em;
 			}
 
 		.icon > .label {
@@ -883,7 +930,7 @@
 			}
 
 	body.index #main {
-		padding-top: 5em;
+		padding-top: 0em;
 	}
 
 /* CTA */
