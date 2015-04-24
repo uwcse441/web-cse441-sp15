@@ -4,8 +4,8 @@ var shownTab = ".home";
 function tabToggle(){
 	$("li" + shownTab).removeClass("active");
 	var classname = $(this).parent("li").attr("class");
-	$("." + classname).show(1000);
-	$("div" + shownTab).hide(1000);
+	$("." + classname).slideDown(1000).delay(1000);
+	$("div" + shownTab).slideUp(1000);
 	shownTab = "." + classname;
 	$(this).parent("li").addClass("active");
 }

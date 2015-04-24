@@ -1,0 +1,81 @@
+/*http://paletton.com/#uid=52C0N0kjestkdZwkvHEfXhHba3D*/
+@black: #333;
+@med-green: #82C850;	/* Main Primary color */
+@bright-green: #A0FE5D;
+@green: #94ED55;
+@olive: #587C3E;
+@dark-green: #141A11;
+
+@med-blue: #3C798E;	/* Main Secondary color (1) */
+@light-blue: #62D5FB;
+@blue: #4CA7C5;
+@gray-blue: #2E4E58;
+@dark-blue: #0C1112;
+
+@yellow1: #E3E05B;	/* Main Secondary color (2) */
+@yellow2: #FFFC5E;
+@yellow3: #FFFC5C;
+@darkyellowbrown: #1D1D13;
+
+div.home {
+	div.docs, div.design, div.demo, div.about {
+		display: none;
+	}
+}
+
+h1,h2,h3 {
+	color: @med-blue;
+}
+h4,h5{
+	color: @olive;
+}
+a {
+	color: @blue;
+}
+hr {
+	border-color: @gray-blue;
+	border-bottom: none;
+}
+.btn-default {
+	background-color: lighten(@green, 10%);
+	border-color: @olive;
+}
+
+.person {
+	text-align: center;
+	img {
+		width: 200px;
+		height: 200px;
+	}
+}
+
+li ul {
+	padding-left: 2em;
+	li {
+		list-style-type: disc;
+		color: @yellow1;
+		span {
+			color: @black;
+		}
+	}
+}
+
+.nav-tabs{
+	border-color: lighten(@gray-blue, 20%);
+}
+/* tab color */
+.nav-tabs>li>a {
+  border-color: lighten(@gray-blue, 20%);
+  border: none;
+}
+
+/* active tab color */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+  border: 1px solid lighten(@gray-blue, 20%);
+  border-bottom: white;
+}
+
+/* hover tab color */
+.nav-tabs>li>a:hover {
+  border-color: lighten(@gray-blue, 20%);
+}

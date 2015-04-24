@@ -1,6 +1,9 @@
 div.docs, div.design, div.demo, div.about {
 	display: none;
 }
+div.docs, div.design, div.demo, div.about, div.home {
+	
+}
 
 .person {
 	text-align: center;
