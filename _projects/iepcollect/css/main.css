@@ -1,6 +1,9 @@
 div.docs, div.design, div.demo, div.about {
 	display: none;
 }
+div.docs, div.design, div.demo, div.about, div.home {
+	
+}
 
 .person {
 	text-align: center;
@@ -8,4 +11,11 @@ div.docs, div.design, div.demo, div.about {
 .person img {
 	width: 200px;
 	height: 200px;
+}
+
+li ul {
+	padding-left: 2em;
+}
+li li {
+	list-style-type: disc;
 }
