@@ -262,6 +262,40 @@ It should be written so that a person unfamiliar with your project and this clas
 
 Post the proposal document to your project website.
 
+### Stands Ups: Tuesday April 21, Tuesday May 5, Tuesday, May 19
+
+Stand ups are an informal update to the class.
+They are intended to facilitate awareness within the class and support feedback to keep your project progressing.
+These do not need to be structured as a formal presentation.
+
+Structure your update as a 3x3:
+
+- 3 things you have done in the past week
+- 3 things you will do in the next week
+- 3 things where you could use advice or are blocked
+
+These are intended to support conversations, ideas, and feedback from the larger group.
+After each group updates, you will have the remainder of class for meeting with your group, seeking additional 
+feedback from the staff, or following up on any points that were raised during the updates.
+
+### Milestone Update Presentations: Tuesday April 28, Tuesday May 12, Tuesday May 26
+
+Milestone update presentations are a check on the trajectory of your project.
+They should convey the state of your project and your plans for the remainder of the quarter.
+This includes the same information as in your stand ups, but also higher-level reflection and planning. 
+
+Structure your presentation to include:
+
+- 3 things you have done in the past week
+- discussion of current progress relative to previously stated plans for this milestone
+- discussion of current plans for future milestones
+- 3 things you will do in the next week
+- 3 things where you could use advice or are blocked
+
+For ease of in-class coordination, submit your presentation materials here:
+
+<https://catalyst.uw.edu/collectit/dropbox/jaf1978/35293>
+
 ## Grading
 
 Grading will be based on the project process and individual contributions to that process:
