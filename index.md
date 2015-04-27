@@ -283,6 +283,7 @@ feedback from the staff, or following up on any points that were raised during t
 Milestone update presentations are a check on the trajectory of your project.
 They should convey the state of your project and your plans for the remainder of the quarter.
 This includes the same information as in your stand ups, but also higher-level reflection and planning. 
+Presentation should last 5 to 10 minutes.
 
 Structure your presentation to include:
 
