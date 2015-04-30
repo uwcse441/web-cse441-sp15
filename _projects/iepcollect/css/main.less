@@ -36,9 +36,13 @@ hr {
 	border-color: @gray-blue;
 	border-bottom: none;
 }
-.btn-default {
+.btn-default, .btn-default:active, .btn-default:hover {
 	background-color: lighten(@green, 10%);
 	border-color: @olive;
+
+	&:hover, &:visited {
+		background-color: @green;
+	}
 }
 
 .person {
