@@ -1001,7 +1001,7 @@
 					border: 0;
 					color: #ffffff !important;
 					display: block;
-					padding: 0.85em 0;
+					padding: 0.65em 0;
 					text-decoration: none;
 				}
 
@@ -1038,7 +1038,7 @@
 /* One */
 
 	#one:before {
-		background-image: url("../images/cover2.jpg");
+		background-image: url("../images/cover5.jpg");
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: cover;
