@@ -40,10 +40,12 @@
           <hr>
           <ul>
               <li><strong>Milestone I: (April 28th)</strong></li>
+              <li><a id="week_1_link" class="week_report"><strong>Week 1 Summary</strong></a></li>
               <li><a id="user_research">User Research Findings</a></li>
               <li><a id="proposal">Proposal</a></li>
               <li><a id="info_arch">Information Architecture</a></li>
-              <li><a>Sketches</a></li>
+              <li><a id="week_2_link" class="week_report"><strong>Week 2 Summary</strong></a></li>
+              <li><a id="sketches">Sketches</a></li>
               <li><a>Paper Prototype I</a></li>
               <li><a>Usability Test I</a></li>
               <li><a>Paper Prototype II</a></li>
@@ -64,10 +66,19 @@
           </ul>
       </div>
       <div class="nine columns cover-page" id="content">
+        <p id="week_1" style="text-align: justify;margin: 8%; position: relative; top:30%; display: none;">
+The first week of our project was primarily about user research. Given that Bookmate did not build off a previous capstone project,     we conducted some informal interviews that provided us some insight into the current strategies UW students use to exchange used textbooks with one another. With this information, we learned what aspects of the textbook transaction process are important to UW students and translated them data and functional requirements that our application would support. We then organized these requirements into a more concise information architecture through affinity diagramming and designed a corresponding system map that conveyed the flow of our application.
+        </p>
+        <p id="week_2" style="text-align: justify;margin: 8%; position: relative; top:30%; display: none;">
+            Basically what we did this week was: 
+            <br> 1. Establish a paper prototype by comparing and combining various interface sketches 
+            <br> 2. Test that prototype with users 
+            <br> 3. Make changes according to feedback 
+            <br> 4. Test the updated design with users 
+            <br> 5. Establish a final prototype design 
+            <br> 6. Start working on an interactive wireframe and digital mockups (static) to increase the fidelity of our design and prepare for further testing. It's also important to note that while we have established the initial search and results parts of the interface, the buyer/seller interaction elements need further refinement before they can be integrated into the wireframe and mockups. We hope to receive feedback and refine these by Tuesday.
+        </p>
          <div class="default_text">
-             <p style="text-align: justify;margin: 8%;">
-                 The first week of our project was primarily about user research. Given that Bookmate did not build off a previous capstone project, we conducted some informal interviews that provided us some insight into the current strategies UW students use to exchange used textbooks with one another. With this information, we learned what aspects of the textbook transaction process are important to UW students and translated them data and functional requirements that our application would support. We then organized these requirements into a more concise information architecture through affinity diagramming and designed a corresponding system map that conveyed the flow of our application.
-             </p>
              <span style="font-style: italic;font-weight: bold;">Click the links on the left to view the report.</span>
           </div>
          <span class="alt_text" style="display:none;">Please make sure that your browser has Adobe Reader or PDF viewer or you can download the file.</span><br><br>
@@ -95,6 +106,13 @@
         load_pdf("#user_research", "pdf_files/UserResearchInterviewSummary.pdf");
         load_pdf("#proposal", "pdf_files/Proposal.pdf");
         load_pdf("#info_arch", "pdf_files/Information_Architecture.pdf");
+        load_pdf("#sketches", "pdf_files/sketches.pdf");
+      
+        $(".week_report").click(function() {
+            var week = "#" + $(this).attr('id').replace('_link','');
+            $("#content").children().hide();
+            $(week).show();
+        });
   </script>
 </body>
 </html>
