@@ -33,7 +33,7 @@ def deploy():
     fabric.api.run('rm -rf /cse/web/courses/cse441/15sp/* && cp -r --no-preserve=all ~/fabric_staging/web-cse441-sp15/* /cse/web/courses/cse441/15sp')
 
     # After writing, we now own a bunch of files, ensure they are group writable for the next person
-    fabric.api.run('chmod -R g+w /cse/web/courses/cse441/15sp/')
+    fabric.api.run('chmod -R g+w /cse/web/courses/cse441/15sp/*')
 
 def serve():
     fabric.api.local('jekyll serve --config _config.yml,_config-dev.yml --watch --force_polling')
