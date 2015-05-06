@@ -25,20 +25,15 @@ def deploy():
     # Push up to the server staging directory
     fabric.api.put('_site/*', '~/fabric_staging/web-cse441-sp15/')
 
-    # Configure the deployment directory to inherit group permissions on subdirectories
-    #
-    # This does not account for directories that have previously been created:
-    # https://en.wikipedia.org/wiki/Setuid#setgid_on_directories
-    #
-    # But it should be fine if this is how we always deploy
-    fabric.api.run('chmod g+s /cse/web/courses/cse441/15sp/')
+    # Configure the deployment directory to be group writable, inherit group permissions on subdirectories
+    if fabric.api.run('whoami') == fabric.api.run("stat -c '%U' /cse/web/courses/cse441/15sp/"):
+        fabric.api.run('chmod g+s /cse/web/courses/cse441/15sp/')
 
-    # And sync into the deployment directory
-    fabric.api.run('rsync -r -c --delete ~/fabric_staging/web-cse441-sp15/ /cse/web/courses/cse441/15sp/')
+    # Overwrite our current files
+    fabric.api.run('rm -rf /cse/web/courses/cse441/15sp/* && cp -r --no-preserve=all ~/fabric_staging/web-cse441-sp15/* /cse/web/courses/cse441/15sp')
 
-    # Set group write permissions
+    # After writing, we now own a bunch of files, ensure they are group writable for the next person
     fabric.api.run('chmod -R g+w /cse/web/courses/cse441/15sp/')
-
 
 def serve():
     fabric.api.local('jekyll serve --config _config.yml,_config-dev.yml --watch --force_polling')
