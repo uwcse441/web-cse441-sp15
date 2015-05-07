@@ -166,6 +166,9 @@ officehours:
   - date: "2015-05-06"
     name: "James Office Hour"
     location: officehourjames
+  - date: "2015-05-13"
+    name: "James Office Hour"
+    location: officehourjames
   - date: "2015-05-20"
     name: "James Office Hour"
     location: officehourjames
@@ -232,17 +235,8 @@ aways:
     name: CHI 2015<br>
           James Away<br>
           Daniel Away
-  - date: "2015-05-13"
-    name: QSPH Symposium<br>
-          James Away<br>
-          Daniel Away
   - date: "2015-05-14"
     name: QSPH Symposium<br>
-          James Away<br>
-          Daniel Away
-  - date: "2015-05-15"
-    name: QSPH Symposium<br>
-          James Away<br>
           Daniel Away
   - date: "2015-05-28"
     name: King Away
