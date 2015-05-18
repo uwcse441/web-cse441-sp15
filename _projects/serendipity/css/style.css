@@ -676,7 +676,7 @@
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		color: inherit;
 		cursor: default;
-		font-size: 0.8em;
+		font-size: .9em; /*originally 0.8em*/
 		left: 0;
 		padding: 1em 1.5em;
 		position: fixed;
@@ -778,7 +778,7 @@
 		}
 
 			#header.alt nav {
-				right: 2.5em;
+				/*right: 2.5em;*/
 				top: 1.75em;
 			}
 
@@ -849,7 +849,8 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");*/
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/Old-Street-In-Europe-wide-i.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -870,7 +871,7 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			background: rgba(52, 27, 43, 0.75); /*0.5->0.75 darkened the purple box */
 			color: white;
 			display: inline-block;
 			opacity: 0;
