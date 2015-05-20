@@ -58,6 +58,7 @@
               <li><strong>Milestone II: (May 12th)</strong></li>
               <li><a id="week_3_link" class="week_report"><strong>Week 3 Summary</strong></a></li>
               <li><a id="week_4_link" class="week_report"><strong>Week 4 Summary</strong></a></li>
+              <li><a id="week_5_link" class="week_report"><strong>Week 5 Summary</strong></a></li>
           </ul>
           <hr>
           <ul>
@@ -122,12 +123,17 @@ The first week of our project was primarily about user research. Given that Book
         load_pdf("#proposal", "pdf_files/Proposal.pdf");
         load_pdf("#info_arch", "pdf_files/Information_Architecture.pdf");
         load_pdf("#sketches", "pdf_files/sketches.pdf");
+        load_pdf("#week_1_link", "pdf_files/1.pdf");
+        load_pdf("#week_2_link", "pdf_files/2.pdf");
+        load_pdf("#week_3_link", "pdf_files/3.pdf");
+        load_pdf("#week_4_link", "pdf_files/4.pdf");
+        load_pdf("#week_5_link", "pdf_files/5.pdf");
       
-        $(".week_report").click(function() {
+        /*$(".week_report").click(function() {
             var week = "#" + $(this).attr('id').replace('_link','');
             $("#content").children().hide();
             $(week).show();
-        });
+        });*/
   </script>
 </body>
 </html>
