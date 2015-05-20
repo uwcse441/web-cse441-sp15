@@ -297,6 +297,30 @@ For ease of in-class coordination, submit your presentation materials here:
 
 <https://catalyst.uw.edu/collectit/dropbox/jaf1978/35293>
 
+### Final Presentations and Posters: Tuesday June 2, Thursday June 4
+
+Prior presentations have focused on defining a project plan and receiving in-progress feedback.
+It is equally important to be able to effectively convey your design, 
+the rationale behind it, alternatives considered, and the basis for your decisions.
+You will present your project, receive feedback on the presentation, and then present again.
+Presentation should last less than 10 minutes.
+
+Imagine you are presenting to somebody empowered to approve your project for more resources (e.g., a manager, a funder).
+Structure your presentation around effectively convincing your audience that your design is promising.
+This likely includes conveying:
+
+- the problem addressed by your design
+- the key insight your design includes toward that problem
+- how that insight shapes your design
+ 
+Your process has included a variety of methods, but method is not the point here.
+Method is a powerful tool, but results and insight ultimately sell your design.
+So aim to use your process as support for your insight and your design, but remember you are selling the design itself.
+
+We will also give feedback on draft posters.
+The overall goal of your poster is the same as your presentation.
+The message will be largely the same, but delivered in a different format.
+
 ## Grading
 
 Grading will be based on the project process and individual contributions to that process:

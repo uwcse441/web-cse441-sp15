@@ -60,6 +60,10 @@ lectures:
     name: "Stand Ups"
   - date: "2015-05-26"
     name: "Milestone 3 Presentation"
+  - date: "2015-06-02"
+    name: "Final Presentations and Posters"
+  - date: "2015-06-04"
+    name: "Final Presentations and Posters"
 
 sections:
 #  - date: "2015-01-09"
@@ -120,20 +124,6 @@ sections:
       10:40 - Bookmate<br>
       11:15 - Memortainment
   - date: "2015-05-28"
-    name: "Project Meetings"
-    notes: |
-      9:30 - Serendipity<br>
-      10:05 - IEP Collect<br>
-      10:40 - Bookmate<br>
-      11:15 - Memortainment
-  - date: "2015-06-02"
-    name: "Project Meetings"
-    notes: |
-      9:30 - Serendipity<br>
-      10:05 - IEP Collect<br>
-      10:40 - Bookmate<br>
-      11:15 - Memortainment
-  - date: "2015-06-04"
     name: "Project Meetings"
     notes: |
       9:30 - Serendipity<br>
