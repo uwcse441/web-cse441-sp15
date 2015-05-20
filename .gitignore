@@ -5,7 +5,6 @@
 _site
 
 # Our Python environment
-env27
 env34
 
 # Compiled Python
@@ -18,5 +17,5 @@ env34
 # Temp/backup files
 *~
 
-#pesky OSX finder file
+# OSX finder file
 *.DS_Store
