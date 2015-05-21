@@ -28,6 +28,7 @@
 	margin-right:auto;
 
 }
+
 .images{
 	width:49%;
 	margin-left:auto;
@@ -35,6 +36,10 @@
 	display: inline-block;
 	padding-left: 1%;
 	vertical-align: middle;
+}
+
+.noListIcon{
+	list-style: none;
 }
 
 
