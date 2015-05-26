@@ -10,7 +10,7 @@ locations:
     - time: "9:30 - 11:50"
       location: "MGH 284"
   postersession:
-    - time: "10:30 - 12:20"
+    - time: "10:30 - 11:30"
       location: "CSE Atrium"
   officehourjames:
     - time: "10:30 - 11:30"
@@ -170,18 +170,21 @@ officehours:
     location: officehourjames
 
 assignments:
-#  - date: "2015-01-08"
-#    name: "1a - Project Ideas"
-#    link: "assignments/assignment1/#assignment1a"
-
-#  - date: "2015-04-07"
-#    name: "Pitch Presentation"
-#  - date: "2015-04-07"
-#    name: "Bidding"
-#  - date: "2015-04-14"
-#    name: "Proposal Presentation"
-#  - date: "2015-04-15"
-#    name: "Pitch Document"
+  - date: "2015-06-02"
+    name: "Presentation draft"
+    #link: assignments/assignment2/#presentation
+  - date: "2015-06-02"
+    name: "Poster draft"
+  - date: "2015-06-04"
+    name: "Final presentation"
+  - date: "2015-06-04"
+    name: "Poster draft"
+  - date: "2015-06-04"
+    name: "Report draft"
+  - date: "2015-06-05"
+    name: "Final poster (due Saturday 6/6 11:59pm)"
+  - date: "2015-06-05"
+    name: "Final report (due Saturday 6/6 11:59pm)"
 
 majors:
 #  - date: "2015-02-05"
