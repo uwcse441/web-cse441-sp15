@@ -36,8 +36,8 @@ layout: default
     {% case currentdayofweek %}
     {% when 'Sun' %}
     <tr>
-    {% when 'Mon' or 'Tue' or 'Wed' or 'Thu' or 'Fri' %}
-    <td width="20%">
+    {% when 'Sun' or 'Mon' or 'Tue' or 'Wed' or 'Thu' or 'Fri' or 'Sat' %}
+    <td width="14%">
       {{ currentdate | date: '%b %-d'}}<br>
       
       <table width="100%">
