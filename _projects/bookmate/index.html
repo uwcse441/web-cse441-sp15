@@ -39,63 +39,45 @@
           <span class="team-name">BOOKMATE</span>
           <hr>
           <ul>
-              <li><strong>Milestone I: (April 28th)</strong></li>
+              <li><a id="milestone_1"><strong>Milestone I: (April 28th)</strong></a></li>
               <li><a id="week_1_link" class="week_report"><strong>Week 1 Summary</strong></a></li>
               <li><a id="user_research">User Research Findings</a></li>
               <li><a id="proposal">Proposal</a></li>
               <li><a id="info_arch">Information Architecture</a></li>
               <li><a id="week_2_link" class="week_report"><strong>Week 2 Summary</strong></a></li>
               <li><a id="sketches">Sketches</a></li>
-              <li><a>Paper Prototype I</a></li>
-              <li><a>Usability Test I</a></li>
-              <li><a>Paper Prototype II</a></li>
-              <li><a>Usability Test II</a></li>
-              <li><a>Digital Mockup</a></li>
-              <li><a>Development Libraries Research</a></li>
+              <li><a id="paper_prototype">Paper Prototype</a></li>
           </ul>
           <hr>
           <ul>
-              <li><strong>Milestone II: (May 12th)</strong></li>
+              <li><a id="milestone_2"><strong>Milestone II: (May 12th)</strong></a></li>
               <li><a id="week_3_link" class="week_report"><strong>Week 3 Summary</strong></a></li>
               <li><a id="week_4_link" class="week_report"><strong>Week 4 Summary</strong></a></li>
-              <li><a id="week_5_link" class="week_report"><strong>Week 5 Summary</strong></a></li>
+              <li><a id="digital_mockups">Digital Mockup</a></li>
           </ul>
           <hr>
           <ul>
-              <li><strong>Milestone III: (May 26th)</strong></li>
+              <li><a id="milestone_3"><strong>Milestone III: (May 26th)</strong></a></li>
+              <li><a id="week_5_link" class="week_report"><strong>Week 5 Summary</strong></a></li>
+              <li><a id="week_6_link" class="week_report"><strong>Week 6 Summary</strong></a></li>
               <li><a>Final Testing Report</a></li>
               <li><a>Website</a></li>
           </ul>
       </div>
       <div class="nine columns cover-page" id="content">
-        <p id="week_1" style="text-align: justify;margin: 8%; position: relative; top:30%; display: none;">
-The first week of our project was primarily about user research. Given that Bookmate did not build off a previous capstone project,     we conducted some informal interviews that provided us some insight into the current strategies UW students use to exchange used textbooks with one another. With this information, we learned what aspects of the textbook transaction process are important to UW students and translated them data and functional requirements that our application would support. We then organized these requirements into a more concise information architecture through affinity diagramming and designed a corresponding system map that conveyed the flow of our application.
-        </p>
-        <p id="week_2" style="text-align: justify;margin: 8%; position: relative; top:30%; display: none;">
-            Basically what we did this week was: 
-            <br> 1. Establish a paper prototype by comparing and combining various interface sketches 
-            <br> 2. Test that prototype with users 
-            <br> 3. Make changes according to feedback 
-            <br> 4. Test the updated design with users 
-            <br> 5. Establish a final prototype design 
-            <br> 6. Start working on an interactive wireframe and digital mockups (static) to increase the fidelity of our design and prepare for further testing. It's also important to note that while we have established the initial search and results parts of the interface, the buyer/seller interaction elements need further refinement before they can be integrated into the wireframe and mockups. We hope to receive feedback and refine these by Tuesday.
-        </p>
-        <p id="week_3" style="text-align: justify;margin: 8%; position: relative; top:30%; display: none;">
-            Things we have done this week:
-            <br> 1. Did last round of paper prototype and completed testing on that. 
-            <br> 2. Created interactive wireframe of the initial screens
-            <br> 3. Created digital mockups of the initial screens
-            <br> 4. Designed the initial database schemas 
-            <br> 5. Setup the web server
-        </p>
-        <p id="week_4" style="text-align: justify;margin: 8%; position: relative; top:30%; display: none;">
-            Things we have done this week:
-            <br> 1. Finished the database schemas, populated the database with ‘fake’ data.
-            <br> 2. Created the front page, search results page
-            <br> 3. Completed some usability testing on our site design
-        </p>
+        
          <div class="default_text">
-             <span style="font-style: italic;font-weight: bold;">Click the links on the left to view the report.</span>
+             
+             <h4>Project Description:</h4>
+             <p>We plan to create a website designed to provide students with a platform to buy, sell, and exchange textbooks within the UW campus. Our solution will focus on generating convenient, seamless, and mutually beneficial transactions between students.</p>
+             <hr>
+             <h4>Team Member</h4>
+             <ul>
+              <li>Chris Jung</li>
+              <li>Maria Angela Suhardi</li>
+              <li>Sreedev Sidharthan</li>
+              <li>Mengqiao Han</li>
+             </ul>
           </div>
          <span class="alt_text" style="display:none;">Please make sure that your browser has Adobe Reader or PDF viewer or you can download the file.</span><br><br>
           <img class="download_btn" src="images/download.png" style="display:none; position: relative; top: 50%;" height="64px"/>
@@ -123,11 +105,17 @@ The first week of our project was primarily about user research. Given that Book
         load_pdf("#proposal", "pdf_files/Proposal.pdf");
         load_pdf("#info_arch", "pdf_files/Information_Architecture.pdf");
         load_pdf("#sketches", "pdf_files/sketches.pdf");
+        load_pdf("#paper_prototype", "pdf_files/paper_prototype.pdf");
+        load_pdf("#digital_mockups", "pdf_files/Digital_Mockups.pdf");
         load_pdf("#week_1_link", "pdf_files/1.pdf");
         load_pdf("#week_2_link", "pdf_files/2.pdf");
         load_pdf("#week_3_link", "pdf_files/3.pdf");
         load_pdf("#week_4_link", "pdf_files/4.pdf");
         load_pdf("#week_5_link", "pdf_files/5.pdf");
+        load_pdf("#week_6_link", "pdf_files/6.pdf");
+        load_pdf("#milestone_1", "pdf_files/milestone_1.pdf");
+        load_pdf("#milestone_2", "pdf_files/milestone_2.pdf");
+        load_pdf("#milestone_3", "pdf_files/milestone_3.pdf");
       
         /*$(".week_report").click(function() {
             var week = "#" + $(this).attr('id').replace('_link','');
