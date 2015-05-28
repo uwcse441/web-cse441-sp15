@@ -10,7 +10,7 @@ locations:
     - time: "9:30 - 11:50"
       location: "MGH 284"
   postersession:
-    - time: "10:30 - 12:20"
+    - time: "10:30 - 11:30"
       location: "CSE Atrium"
   officehourjames:
     - time: "10:30 - 11:30"
@@ -60,6 +60,10 @@ lectures:
     name: "Stand Ups"
   - date: "2015-05-26"
     name: "Milestone 3 Presentation"
+  - date: "2015-06-02"
+    name: "Final Presentations and Posters"
+  - date: "2015-06-04"
+    name: "Final Presentations and Posters"
 
 sections:
 #  - date: "2015-01-09"
@@ -69,77 +73,63 @@ sections:
 #      9:30 - Serendipity<br>
 #      10:05 - IEP Collect<br>
 #      10:40 - Bookmate<br>
-#      11:15 - Memortainment
+#      11:15 - Memorable
   - date: "2015-04-09"
     name: "Proposal Feedback"
     notes: |
       9:30 - Serendipity<br>
       10:05 - IEP Collect<br>
       10:40 - Bookmate<br>
-      11:15 - Memortainment
+      11:15 - Memorable
   - date: "2015-04-16"
     name: "Project Meetings"
     notes: |
       9:30 - Serendipity<br>
       10:05 - IEP Collect<br>
       10:40 - Bookmate<br>
-      11:15 - Memortainment
+      11:15 - Memorable
   - date: "2015-04-23"
     name: "Project Meetings"
     notes: |
       9:30 - Serendipity<br>
       10:05 - IEP Collect<br>
       10:40 - Bookmate<br>
-      11:15 - Memortainment
+      11:15 - Memorable
   - date: "2015-04-30"
     name: "Project Meetings"
     notes: |
       9:30 - Serendipity<br>
       10:05 - IEP Collect<br>
       10:40 - Bookmate<br>
-      11:15 - Memortainment
+      11:15 - Memorable
   - date: "2015-05-07"
     name: "Project Meetings"
     notes: |
       9:30 - Serendipity<br>
       10:05 - IEP Collect<br>
       10:40 - Bookmate<br>
-      11:15 - Memortainment
+      11:15 - Memorable
   - date: "2015-05-14"
     name: "Project Meetings"
     notes: |
       9:30 - Serendipity<br>
       10:05 - IEP Collect<br>
       10:40 - Bookmate<br>
-      11:15 - Memortainment
+      11:15 - Memorable
   - date: "2015-05-21"
     name: "Project Meetings"
     notes: |
       9:30 - Serendipity<br>
       10:05 - IEP Collect<br>
       10:40 - Bookmate<br>
-      11:15 - Memortainment
+      11:15 - Memorable
   - date: "2015-05-28"
     name: "Project Meetings"
     notes: |
       9:30 - Serendipity<br>
       10:05 - IEP Collect<br>
       10:40 - Bookmate<br>
-      11:15 - Memortainment
-  - date: "2015-06-02"
-    name: "Project Meetings"
-    notes: |
-      9:30 - Serendipity<br>
-      10:05 - IEP Collect<br>
-      10:40 - Bookmate<br>
-      11:15 - Memortainment
-  - date: "2015-06-04"
-    name: "Project Meetings"
-    notes: |
-      9:30 - Serendipity<br>
-      10:05 - IEP Collect<br>
-      10:40 - Bookmate<br>
-      11:15 - Memortainment
+      11:15 - Memorable
 
 officehours:
   - date: "2015-04-01"
@@ -180,24 +170,27 @@ officehours:
     location: officehourjames
 
 assignments:
-#  - date: "2015-01-08"
-#    name: "1a - Project Ideas"
-#    link: "assignments/assignment1/#assignment1a"
-
-#  - date: "2015-04-07"
-#    name: "Pitch Presentation"
-#  - date: "2015-04-07"
-#    name: "Bidding"
-#  - date: "2015-04-14"
-#    name: "Proposal Presentation"
-#  - date: "2015-04-15"
-#    name: "Pitch Document"
+  - date: "2015-06-02"
+    name: "Presentation Feedback"
+    #link: assignments/assignment2/#presentation
+  - date: "2015-06-02"
+    name: "Poster Feedback"
+  - date: "2015-06-04"
+    name: "Poster Feedback"
+  - date: "2015-06-04"
+    name: "Report Feedback"
 
 majors:
 #  - date: "2015-02-05"
 #    name: "Presentations"
 #    location: "lectures"
 #    link: "assignments/assignment2/#presentation"
+  - date: "2015-06-04"
+    name: "Final Presentation"
+  - date: "2015-06-06"
+    name: "Final Poster"
+  - date: "2015-06-06"
+    name: "Final Report"
   - date: "2015-06-08"
     name: "Poster Session"
     location: "postersession"
@@ -238,5 +231,3 @@ aways:
   - date: "2015-05-14"
     name: QSPH Symposium<br>
           Daniel Away
-  - date: "2015-05-28"
-    name: King Away

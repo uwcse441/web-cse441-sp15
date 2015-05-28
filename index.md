@@ -297,6 +297,56 @@ For ease of in-class coordination, submit your presentation materials here:
 
 <https://catalyst.uw.edu/collectit/dropbox/jaf1978/35293>
 
+### Final Presentation, Poster, and Report: Tuesday June 2, Thursday June 4, Saturday June 6, Monday June 8
+
+Prior presentations have focused on defining a project plan and receiving in-progress feedback.
+It is equally important to be able to effectively convey your design, 
+the rationale behind it, alternatives considered, and the basis for your decisions.
+
+Imagine you are presenting to somebody empowered to approve your project for more resources (e.g., a manager, a funder).
+They are motivated to understand and consider your design, but have not been involved in your work to date.
+Structure your presentation around effectively convincing your audience that your design is promising.
+This likely includes conveying:
+
+- the problem addressed by your design
+- the key insight your design includes toward that problem
+- how that insight shapes your design
+ 
+Your process has included a variety of methods, but method is not the point here.
+Method is a powerful tool, but results and insight ultimately sell your design.
+So aim to use your process as support for your insight and your design, but remember you are selling the design itself.
+
+You will present this content in three forms.
+The overall goal of these different presentation forms is the same.
+Your message will be therefore be largely the same, but delivered in a different format.
+
+- Presentation
+
+  - Give a 10 minute presentation in class on Tuesday June 2.
+  - After feedback from the instructors and the class, revise your presentation.
+  - Give your final 10 minute presentation in class on Thursday June 4.
+
+- Poster
+
+  - Submit a poster for feedback in class on Tuesday June 2.
+  - After feedback from the instructors and the class, revise your poster.
+  - Submit a poster for feedback in class on Thursday June 4.
+  - After feedback from the instructors and the class, revise your poster.
+  - Submit a final poster on Saturday June 6, for us to print prior to the final poster session.
+
+- Report
+
+  - Submit a 2 to 4 page report for feedback on Thursday June 4.
+  - Ensure your document effectively conveys your design, while remaining crisp and focused.
+  - We will provide quick and high-level feedback. 
+  - You should also consider exchanging your report with classmates for their feedback. 
+  - After feedback from the instructors and the class, revise your report.
+  - Submit a final report on Saturday June 6.
+
+For ease of coordination, submit your presentation, poster, and report here:
+
+<https://catalyst.uw.edu/collectit/dropbox/jaf1978/35293>
+
 ## Grading
 
 Grading will be based on the project process and individual contributions to that process:

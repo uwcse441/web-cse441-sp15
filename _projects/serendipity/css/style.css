@@ -7,6 +7,78 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* JK Additions*/
+
+.milestonePresentation{
+	width:50%;
+	height:300px;
+	border:5px;
+	float:left;
+	margin-right:1em;
+
+}
+
+.presentation{
+	width:75%;
+	height:400px;
+	display:block;
+	/*border:5px;*/
+	/*float:left;*/
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.images{
+	width:49%;
+	margin-left:auto;
+	margin-right:auto;
+	display: inline-block;
+	padding-left: 1%;
+	vertical-align: middle;
+}
+
+.noListIcon{
+	list-style: none;
+}
+
+.update-LeftLink{
+	float:left;
+	display:inline-block;
+}
+
+	.update-LeftLink a{
+		border-bottom:none;
+	}
+
+	.update-LeftLink p{
+		/*text-transform: uppercase;*/
+		font-size: 1.25em;
+	}
+
+.update-RightLink{
+	float:right;
+	display:inline-block;
+}
+
+	.update-RightLink a{
+		border-bottom:none;
+	}
+
+	.update-RightLink p{
+		/*text-transform: uppercase;*/
+		font-size: 1.25em;
+	}
+
+.updateApp{
+	width:16%;
+	/*height:280px;*/
+	display:inline-block;
+
+}
+
+
+
 /* Basic */
 
 	body, #skel-layers-wrapper {
@@ -110,7 +182,7 @@
 
 	hr {
 		border-top: solid 1px rgba(124, 128, 129, 0.2);
-		border: 0;
+		/*border: 0;*/ /*JK edit*/
 		margin-bottom: 1.5em;
 	}
 
@@ -176,7 +248,7 @@
 		}
 
 			header.special .icon:before {
-				font-size: 3.5em;
+				font-size: 4.5em; /*originally 3.5em*/
 				opacity: 0.35;
 			}
 
@@ -676,7 +748,7 @@
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
 		color: inherit;
 		cursor: default;
-		font-size: 0.8em;
+		font-size: .85em; /*originally 0.8em*/
 		left: 0;
 		padding: 1em 1.5em;
 		position: fixed;
@@ -778,7 +850,7 @@
 		}
 
 			#header.alt nav {
-				right: 2.5em;
+				/*right: 2.5em;*/
 				top: 1.75em;
 			}
 
@@ -849,7 +921,8 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");*/
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/Old-Street-In-Europe-wide-i.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -870,7 +943,7 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			background: rgba(52, 27, 43, 0.75); /*0.5->0.75 darkened the purple box */
 			color: white;
 			display: inline-block;
 			opacity: 0;
