@@ -9,6 +9,22 @@
 
 /* JK Additions*/
 
+.vids{
+	width:75%;
+	height:400px;
+	display:block;
+	margin-right: auto;
+	margin-left:auto;
+
+}
+
+#posterPic{
+	width:75%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
 .milestonePresentation{
 	width:50%;
 	height:300px;
@@ -922,7 +938,11 @@
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
 		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");*/
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/Old-Street-In-Europe-wide-i.jpg");
+		background-image: 
+			url("images/light-bl.svg"), 
+			url("images/light-br.svg"), 
+			url("images/overlay copy.png"), 
+			url("../images/Old-Street-In-Europe-wide-i.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -943,7 +963,11 @@
 			-o-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.75); /*0.5->0.75 darkened the purple box */
+			/*0.5->0.75 darkened the purple box */
+			/*background: rgba(52, 27, 43, 0.75); */
+			/*background: rgba(57, 191, 174, 0.65);*/
+			/*background: rgba(40, 134, 110, 0.65);*/
+			background: rgba(41, 148, 139, 0.65);
 			color: white;
 			display: inline-block;
 			opacity: 0;
