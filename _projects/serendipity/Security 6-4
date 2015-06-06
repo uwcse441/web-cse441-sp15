@@ -1,0 +1,50 @@
+Security 6-4
+Final Exam Review
+
+Buffer Overflows
+ - printf has a few variations
+
+Defenses
+ - mark all writeable memory locations as non-executable
+ - stack canaries
+
+ Fuzz Testing
+  - randomly put strings into program -> see if program crashes
+  	- pro = don't really need to know, black box fuzzing
+  	- cons = try all the different if branches and see if interesting things happen
+
+
+Cryptography
+ - know pros and cons between the two types (asymmetric and symmetric)
+ - encrypting a larger message need to chain together
+ 	- can use ECB, CBC, or CTR
+	- *** REVIEW pros and cons of each
+ - How can a cipher be attacked?
+ 	- different level of severity of attack
+		 - attacker knows ciphertext and encryption algorithm
+ 		 1. ciphertext-only
+ 		 2. KPA
+ 		 3. CPA - choose what the system can use
+ 		 4. CCA 
+ 		 - **know an example for each of the above
+
+ - Hash Functions
+ 	 - collision resistance (hard to find 2 that collide)
+ 	 - weak collision resistance
+ 	 - one-way
+	 - Why do we hash passwords instead of encrypting? if you encrypt you have to store the keys, hashpasswords use a salt to make it more difficult to brute force
+
+ - Exchanging keys
+ 	 - ***KNOW THE FORMULAS
+
+ - RSA Cryptosystem
+ - Key Distribution
+
+Web security
+ - different types of attacks
+ - how they works
+ - 
+
+
+
+
