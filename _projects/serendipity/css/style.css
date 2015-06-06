@@ -217,7 +217,7 @@
 		text-transform: uppercase;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		h1 a, h2 a, h3 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
 			border: 0;
