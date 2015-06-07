@@ -11,7 +11,7 @@ function tabToggle(){
 }
 
 var ready = function() {
-	$("li.home a, li.docs a, li.design a, li.demo a, li.about a").click(tabToggle);
+	$("li.home a, li.docs a, li.design a, li.demo a, li.about a, li.blog a").click(tabToggle);
 
 
 
