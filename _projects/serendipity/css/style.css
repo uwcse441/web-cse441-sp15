@@ -7,7 +7,56 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* JK Additions*/
+/* JK Additions */
+
+#dropGIF{
+	height:400px;
+	display:block;
+	position:right;
+}
+
+.image.featured.presentation{
+	background-image:url("../images/Pres_title.png");
+	background-size: cover;
+}
+
+.icon.featured.plan{
+	background-image: url("images/path-3x.png");
+	background-position: center;
+	background-size: 4em;
+	background-repeat: no-repeat;
+	background-color: #e29598; /*#dd8185, #DA4C7D;*/
+}
+
+.icon.featured.journey{
+	background-image: url("images/journey.png");
+	background-position: center;
+	background-size: 100;
+	background-repeat: no-repeat;
+	background-color: #6491f6; /*#4c80f4, #346FF3;*/
+
+}
+
+.icon.featured.share{
+	background-image: url("images/drop-message-3x.png");
+	background-position: center;
+	background-size: 4em;
+	background-repeat: no-repeat;
+	background-color: #fce491; /*#fbde78;*/ /*#fbe491;*/  /*#F7B75D;*/
+
+}
+
+.icon.featured.fa-level-down{
+	background: #6491f6;
+	color: white;
+	transform: rotate(-90deg);
+}
+		.icon.featured.fa-level-down:before {
+			
+			font-size: 4.7em;
+			line-height: 1.75em;
+			background-position: center;
+		}
 
 .vids{
 	width:75%;
@@ -168,7 +217,7 @@
 		text-transform: uppercase;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		h1 a, h2 a, h3 a, h5 a, h6 a {
 			color: inherit;
 			text-decoration: none;
 			border: 0;
@@ -346,12 +395,15 @@
 	.image {
 		border: 0;
 		position: relative;
+		max-width: 100%;
+    height: auto;
+		
 	}
 
 		.image:before {
-			/*background: url("images/overlay.png");*/
+			background: url("images/overlay.png");
 			content: '';
-			height: 100%;
+			/*height: 100%;*/
 			left: 0;
 			position: absolute;
 			top: 0;
@@ -369,12 +421,14 @@
 
 		.image.featured {
 			display: block;
-			margin: 0 0 2em 0;
+			/*margin: 0 0 2em 0;*/
+			margin: 0 0 1em 0;
 		}
 
 			.image.featured img {
 				display: relative;
-				width: 75%;
+				width: 90%; /*75%; */
+				overflow:hidden;
 			}
 		.update {
 			width: 55%;
@@ -412,7 +466,7 @@
 			border: 0;
 			border-radius: 100%;
 			display: inline-block;
-			font-size: 1.25em;
+			/*font-size: 1.25em;*/
 			height: 2.25em;
 			left: 0;
 			line-height: 2.25em;
@@ -422,9 +476,9 @@
 			width: 2.25em;
 		}
 
-			.icon.circle:hover {
+			/*.icon.circle:hover {
 				top: -0.2em;
-			}
+			}*/
 
 			.icon.circle.fa-twitter {
 				background: #70aecd;
@@ -539,6 +593,11 @@
 
 		ul.default li {
 			padding-left: 0.5em;
+		}
+
+		ul.default p {
+			margin: 0;
+			padding: 0;
 		}
 
 	ul.icons {
